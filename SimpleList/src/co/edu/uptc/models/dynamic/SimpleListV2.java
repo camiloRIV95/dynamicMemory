@@ -1,10 +1,16 @@
-package co.edu.uptc.models;
+package co.edu.uptc.models.dynamic;
 
-public class SimpleList {
+public class SimpleListV2 {
     Node header;
+    Node last;
+
+    public SimpleListV2(){
+      header = null;
+      last = null;
+    }
 
     // TODO:  falta addionar mas de un elemento y que lo adiciona a la lista
-    public void addv1(String value){
+    public void addv1(int value){
        Node node = new Node();
        node.setInfo(value);
        node.setNext(null);
@@ -12,22 +18,17 @@ public class SimpleList {
     }
 
     // TODO: falta refactorizar
-    public void add(String value){
+    public void add(int value){
         Node newNode = new Node();
         newNode.setInfo(value);
         newNode.setNext(null);
         if (header== null) {
             header = newNode;
-        } else {
-            Node last = header;
-            while (last.getNext() !=null) {
-                     last = last.getNext();
-            }
+            last = header;
+        } else {            
             last.setNext(newNode);
+            last = newNode;
         }
-
-
-
         
      }
 

@@ -1,13 +1,13 @@
-package co.edu.uptc.models;
+package co.edu.uptc.models.dynamic;
 
 public class Node {
-   private String info;
+   private int info;
    private Node next;
 
-public String getInfo() {
+public int getInfo() {
     return info;
 }
-public void setInfo(String info) {
+public void setInfo(int info) {
     this.info = info;
 }
 public Node getNext() {
