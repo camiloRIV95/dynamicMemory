@@ -5,7 +5,7 @@ public class VectorOnly {
 
     public void fullData(){
         long startTime = System.nanoTime();
-        int data[] = new int[307_000_000];
+        int data[] = new int[2_000_000_000];
         for (int i = 0; i < data.length; i++) {
             data[i] = i;
         }
