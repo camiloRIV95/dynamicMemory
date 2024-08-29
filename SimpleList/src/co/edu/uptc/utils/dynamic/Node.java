@@ -1,4 +1,4 @@
-package co.edu.uptc.models.dynamic;
+package co.edu.uptc.utils.dynamic;
 
 public class Node <T>{
    private T info;

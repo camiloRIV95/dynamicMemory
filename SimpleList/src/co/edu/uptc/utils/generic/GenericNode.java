@@ -1,4 +1,4 @@
-package co.edu.uptc.models.generic;
+package co.edu.uptc.utils.generic;
 
 import java.util.Collection;
 import java.util.Iterator;

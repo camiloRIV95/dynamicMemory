@@ -1,4 +1,4 @@
-package co.edu.uptc.models.systemInfo;
+package co.edu.uptc.utils.systemInfo;
 
 import java.lang.management.ManagementFactory;
 import com.sun.management.OperatingSystemMXBean;

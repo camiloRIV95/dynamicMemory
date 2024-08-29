@@ -1,4 +1,4 @@
-package co.edu.uptc.models.dynamic;
+package co.edu.uptc.utils.dynamic;
 
 import java.util.Collection;
 import java.util.Iterator;

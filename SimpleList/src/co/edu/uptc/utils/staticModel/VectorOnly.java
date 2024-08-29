@@ -1,4 +1,4 @@
-package co.edu.uptc.models.staticModel;
+package co.edu.uptc.utils.staticModel;
 
 public class VectorOnly {
     
